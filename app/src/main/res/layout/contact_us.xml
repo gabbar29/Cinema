@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:background="#ddd7c4">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="FEEDBACK"
+        android:paddingBottom="10dp"
+        android:id="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:id="@+id/feed_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:background="#ffffff"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:id="@+id/editText"
+        android:background="#FFFFFF"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/feed_spinner"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4"
+        android:padding="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONTACT"
+        android:layout_below="@id/editText"
+        android:paddingTop="20dp"
+        android:textSize="20dp"
+        android:id="@+id/textView4" />
+
+    <View
+        android:id="@+id/linetxt"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#afac88"
+        android:layout_below="@id/textView4"/>
+
+    <TextView
+        android:id="@+id/infotxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linetxt"
+        android:textSize="18dp"
+        android:text="NCCS Cinemas"
+        android:layout_marginBottom="10dp"/>
+
+
+    <TextView
+        android:id="@+id/timetxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(10:30 to 6:00 pm)"
+        android:textSize="18dp"
+        android:layout_below="@id/infotxt"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/landlinetxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Landline: 01-4444444 (Sun-Fri)"
+        android:textSize="18dp"
+        android:layout_below="@id/timetxt"
+        android:layout_marginBottom="10dp"/>
+
+
+    <TextView
+        android:id="@+id/emailtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email Address=nccscinemas.edu.np"
+        android:textSize="18dp"
+        android:layout_below="@id/landlinetxt"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/fbtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Facebook: http//fb.com/nccscinemasnepal"
+        android:textSize="18dp"
+        android:layout_below="@id/emailtxt"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_below="@+id/fbtxt" />
+
+</RelativeLayout>
+
+</ScrollView>
+

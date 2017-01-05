@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/now_showing"
+            android:icon="@drawable/movie"
+            android:title="Now Showing" />
+        <item
+            android:id="@+id/upcoming_shows"
+            android:icon="@drawable/upcoming"
+            android:title="Upcoming Shows" />
+
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/share1"
+                android:title="Share" />
+            <item
+                android:id="@+id/contact_us"
+                android:icon="@drawable/help"
+                android:title="Contact Us" />
+            <item
+                android:id="@+id/login"
+                android:icon="@drawable/book"
+                android:title="Login"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/add_member"
+        android:icon="@drawable/add"
+        android:title="Add member" />
+
+</menu>
